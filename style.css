@@ -14,7 +14,8 @@
 :root {
     --bg-color: #000000c8;
     --second-bg-color: #ae079a;
-    --third-bg-color: #0a0809;  
+    --third-bg-color: #0a0809;
+    --fourth-bg-color: #74315f;
     --text-color: #fff;
     --main-color: rgba(229, 34, 151, 0.942);
 }
@@ -179,7 +180,7 @@ span{
 
 .skills-container .skills-box{
     flex: 1 1 30rem;
-    background: var(--second-bg-color);
+    background: var(--fourth-bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
@@ -188,5 +189,8 @@ span{
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-
+.skills-box p{
+    font-size: 1.7rem;
+    margin: 1rem 0 2rem;
+}
 
